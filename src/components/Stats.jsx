@@ -7,7 +7,7 @@ const Stats = () => {
       {stats.map((item) => (
         <div
           key={item.id}
-          className="flex-1 flex justify-start items-center mt-4"
+          className="flex-1 flex justify-start items-center m-4"
         >
           <h4 className="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white">
             {item.value}
