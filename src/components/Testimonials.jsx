@@ -9,7 +9,7 @@ const Testimonials = () => {
       className="sm:py-16 py-6 flex justify-center items-center flex-col relative"
     >
       {/* градиент */}
-      <div />
+      <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
 
       <div className="w-full flex items-center md:flex-row flex-col z-10 relative sm:mb-16 mb-6">
         <h2 className="font-poppins font-semibold xs:text-5xl text-[40px] text-white xs:leading-[77px] leading[67px] w-full">
