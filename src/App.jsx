@@ -1,50 +1,50 @@
 // import styles from './style';
 import React from 'react';
 import {
-  Navbar,
-  Hero,
-  Stats,
-  Business,
-  Billing,
-  CardDeal,
-  Testimonials,
-  Client,
-  Footer,
-  CTA,
+    Navbar,
+    Hero,
+    Stats,
+    Business,
+    Billing,
+    CardDeal,
+    Testimonials,
+    Client,
+    Footer,
+    CTA,
 } from './components';
 
 const App = () => {
-  return (
-    <div className="bg-primary w-full overflow-hidden">
-      {/* Navbar */}
-      <div className="sm:px-16 px-6 flex justify-center items-center">
-        <div className="xl:max-w-[1280px] w-full">
-          <Navbar />
-        </div>
-      </div>
+    return (
+        <div className='w-full overflow-hidden bg-primary'>
+            {/* Navbar */}
+            <div className='flex items-center justify-center px-6 sm:px-16'>
+                <div className='w-full xl:max-w-[1280px]'>
+                    <Navbar />
+                </div>
+            </div>
 
-      {/* Main hero */}
-      <div className="bg-primary flex justify-center items-start">
-        <div className="xl:max-w-[1280px] w-full">
-          <Hero />
-        </div>
-      </div>
+            {/* Main hero */}
+            <div className='flex items-start justify-center bg-primary'>
+                <div className='w-full xl:max-w-[1280px]'>
+                    <Hero />
+                </div>
+            </div>
 
-      {/* Components */}
-      <div className="bg-primary sm:px-16 px-6 flex justify-center items-start">
-        <div className="xl:max-w-[1280px] w-full">
-          <Stats />
-          <Business />
-          <Billing />
-          <CardDeal />
-          <Testimonials />
-          <Client />
-          <CTA />
-          <Footer />
+            {/* Components */}
+            <div className='flex items-start justify-center bg-primary px-6 sm:px-16'>
+                <div className='w-full xl:max-w-[1280px]'>
+                    <Stats />
+                    <Business />
+                    <Billing />
+                    <CardDeal />
+                    <Testimonials />
+                    <Client />
+                    <CTA />
+                    <Footer />
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default App;
